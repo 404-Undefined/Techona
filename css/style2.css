@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 2;
   opacity: .9;
   -webkit-backface-visibility: hidden;
-  background-color: #303c69;
+  background-color: #329998;
   /* IE9, iOS 3.2+ */
 
 }
@@ -874,7 +874,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  background-color: #303c69;
+  background-color: #329998;
 
 }
 #fh5co-work a {
@@ -1414,3 +1414,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style2.css.map */
+
+
