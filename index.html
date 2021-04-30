@@ -34,6 +34,7 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -48,7 +49,7 @@
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		         <a class="navbar-brand" href="index.html">Corona tehc</a> 
+		         <a class="navbar-brand" href="index.html">Corona tech</a> 
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
@@ -92,7 +93,6 @@
 						<i class="fh5co-intro-icon icon-bulb"></i>
 						<h2>Sustainability</h2>
 						<p>The daily global CO2 emission in April 2020 was 17% lower than the mean CO2 emission in 2019. However, this number has rebounded and will reach new records.</p>
-
 					</div>
 				</div>
 				<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
@@ -112,27 +112,27 @@
 						<i class="fh5co-intro-icon icon-head"></i>
 						<h2>Awareness</h2>
 						<p>As the pandemic has dragged on for many months, many people have become numb to the dangers of Covid-19, especially as countries have begun lifting lockdowns. </p>
-
 					</div>
 				</div>
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
-					<div class="overlay-darker"></div>
-					<div class="overlay"></div>
-					<div class="fh5co-text">
-						<i class="fh5co-intro-icon icon-lock2"></i>
-						<h2>Cybersecurity</h2>
-						<p>As quarantines were imposed around the world, everyone took their life online. This left people such as teenagers ourselves vulnerable to cybercrime.</p>
-
+				<div style="width: 100%;">
+					<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg); margin-left:17%;">
+						<div class="overlay-darker"></div>
+						<div class="overlay"></div>
+						<div class="fh5co-text">
+							<i class="fh5co-intro-icon icon-lock2"></i>
+							<h2>Cybersecurity</h2>
+							<p>As quarantines were imposed around the world, everyone took their life online. This left people such as teenagers ourselves vulnerable to cybercrime.</p>
+						</div>
 					</div>
-				</div>
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
-					<div class="overlay-darker"></div>
-					<div class="overlay"></div>
-					<div class="fh5co-text">
-						<i class="fh5co-intro-icon icon-rocket"></i>
-						<h2>Reintegration</h2>
-						<p>The impact that this global pandemic has on the world is irreversible. It has forever altered our lifestyle and the way we interact with each other.</p>
+					<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+						<div class="overlay-darker"></div>
+						<div class="overlay"></div>
+						<div class="fh5co-text">
+							<i class="fh5co-intro-icon icon-rocket"></i>
+							<h2>Reintegration</h2>
+							<p>The impact that this global pandemic has on the world is irreversible. It has forever altered our lifestyle and the way we interact with each other.</p>
 
+						</div>
 					</div>
 				</div>
 			</div>
@@ -151,7 +151,7 @@
 				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="fh5co-counter to-animate">
 						<!-- <i class="fh5co-counter-icon icon-code to-animate-2"></i> -->
-						<span class="fh5co-counter-number js-counter" data-from="0" data-to="2343409" data-speed="5000" data-refresh-interval="50">2343409</span>
+						<div id="corona" class="fh5co-counter-number corona" data-from="0" data-speed="5000" data-refresh-interval="50"></div>
 						<span class="fh5co-counter-label">Corona Infections Worldwide</span>
 					</div>
 				</div>
@@ -161,17 +161,19 @@
 	</section>
 	<section style="padding: 3em;">
 		<div class="row">
-			<div class="col-xl-4" style="text-align:center;">
-				<iframe src="https://public.domo.com/cards/bWxVg" width="80%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+			<div class="col-xl-12" style="text-align:center;">
+				<!-- <iframe src="https://public.domo.com/cards/bWxVg" width="80%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe> -->
+				<div style="width: 80%;   margin: 0 auto;" class="flourish-embed flourish-map" data-src="story/225979"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 			</div>
-			<div class="col-xl-4" style="text-align:center;">
+			<!-- <div class="col-xl-4" style="text-align:center;">
 				<iframe src="https://public.domo.com/cards/avnAV" width="80%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
 			</div>
 			<div class="col-xl-4" style="text-align:center;">
 				<iframe src="https://public.domo.com/cards/dwoBJ" width="80%" height="600" marginheight="0" marginwidth="0" frameborder="0"></iframe>
 			</div>
-		</div>
+		</div> -->
 	</section>
+
 
 	<section id="fh5co-work" data-section="product">
 		<div class="container">
@@ -230,7 +232,7 @@
 					<h2 class="to-animate">Community Projects</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3>Community's solution to corona</h3>
 						</div>
 					</div>
 				</div>
@@ -343,7 +345,7 @@
 	
 
 
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -360,8 +362,6 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
@@ -380,11 +380,20 @@
 				$('#colour-variations').toggleClass('sleep');
 			});
 		});
+
+			$(document).ready(function(){
+
+		$.getJSON('https://api.covid19api.com/summary', function(response) {
+			var cases = `${response.Global.TotalConfirmed}`;
+			$("#corona").html(cases);
+		})
+	})
 	</script>
 	<!-- End demo purposes only -->
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+
 
 	</body>
 </html>
