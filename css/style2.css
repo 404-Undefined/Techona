@@ -488,7 +488,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
   background-size: cover;
   position: relative;
-  backgroun-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 #fh5co-intro .fh5co-block2 {
   width: 33.33%;
@@ -508,9 +508,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
   background-size: cover;
   position: relative;
-  backgroun-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
-@media screen and (max-width: 968px) {
+@media (max-width: 968px) {
   #fh5co-intro .fh5co-block {
     width: 100%;
     margin-left: 0!important;
