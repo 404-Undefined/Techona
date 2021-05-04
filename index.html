@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Techona </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="Techincal solutions for combating Corona " />
+    <meta name="keywords" content="Corona, technology, post-pandemic" />
     <meta name="author" content="FREEHTML5.CO" />
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="images/Untitled design-2.png">
@@ -29,12 +29,42 @@
     <link rel="stylesheet" href="css/style2.css">
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 </head>
+
+<div class="se-pre-con"></div>
+<script>
+    $(window).load(function() {
+    // Animate loader off screen
+        $(".se-pre-con").delay(1000).fadeOut("slow");
+        $('body').css({'overflow':'auto', 'height':'auto', 'position':'relative'});
+    });
+</script>
+<style>
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+body {
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+    width:100%;
+}
+</style>
 
 <body>
     <header role="banner" id="fh5co-header">
