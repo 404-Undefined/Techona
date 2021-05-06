@@ -55,6 +55,19 @@ h1, h2, h3, h4, h5, h6 {
   background: #f9f6f0;
 }
 
+.iframe{
+  width : 100vw;
+  height : 100vh;
+  max-width : 100%;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  box-sizing: border-box;
+  display : block;
+
+
+}
+
 ::selection {
   color: #818892;
   background: #f9f6f0;
