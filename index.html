@@ -38,13 +38,21 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 </head>
-<!-- 
-<div class="se-pre-con"></div>
+
+<div id="preloader">
+    <div id="status">
+        <div class="status-mes"></div>
+    </div>
+</div>
+
+<!-- <div class="se-pre-con"></div> -->
 <script>
     $(window).load(function() {
     // Animate loader off screen
         $(".se-pre-con").fadeOut("slow");
-        // $('body').css({'overflow':'auto', 'height':'auto', 'position':'relative'});
+        $('body').css({'overflow':'auto', 'height':'auto', 'position':'relative'});
+        
+                $('#preloader').delay(200).fadeOut('slow');
     });
 </script>
 <style>
@@ -59,13 +67,13 @@
 	z-index: 9999;
 	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
 }
-/* body {
+body {
     overflow: hidden;
     height: 100%;
     position: fixed;
     width:100%;
-} */
-</style> -->
+}
+</style>
 
 <body>
     <header role="banner" id="fh5co-header">
@@ -185,7 +193,7 @@
                     <script src="https://public.flourish.studio/resources/embed.js"></script>
                 </div> -->
                 <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&hideControls=true&Metric=Confirmed+cases&Interval=Cumulative&Relative+to+Population=false&Align+outbreaks=false&country=~OWID_WRL" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
-                <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?tab=map&zoomToSelection=true&hideControls=true&Metric=Confirmed+cases&Interval=Cumulative&Relative+to+Population=false&Align+outbreaks=false&country=~OWID_WRL" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+                <!-- <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?tab=map&zoomToSelection=true&hideControls=true&Metric=Confirmed+cases&Interval=Cumulative&Relative+to+Population=false&Align+outbreaks=false&country=~OWID_WRL" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe> -->
                 <!-- <iframe src="https://ourworldindata.org/grapher/full-list-cumulative-total-tests-per-thousand" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe> -->
                 <!-- <iframe src="epidemic-simulator-main-2/chocolate.html" class="iframe" scrolling="no" frameborder="0"></iframe> -->
             </div>
@@ -742,6 +750,9 @@
     // 		obj.innerHTML = current++;
     // 	},1000);
     // }
+
+
+
     </script>
     <!-- Main JS (Do not remove) -->
     <script src="js/main.js"></script>
